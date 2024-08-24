@@ -46,6 +46,31 @@ Route::get('/options_meal_ectomorph/breakfast_options_ectomorph', function () {
     return view('options_meal_ectomorph.breakfast_options_ectomorph');
 })->name('breakfast.options.ectomorph');
 
+// Ruta para opciones de media mañana de ectomorfo
+Route::get('/options_meal_ectomorph/brunch_options_ectomorph', function () {
+    return view('options_meal_ectomorph.brunch_options_ectomorph');
+})->name('brunch.options.ectomorph');
+
+// Ruta para opciones de almuerzos de ectomorfo
+Route::get('/options_meal_ectomorph/lunch_options_ectomorph', function () {
+    return view('options_meal_ectomorph.lunch_options_ectomorph');
+})->name('lunch.options.ectomorph');
+
+// Ruta para opciones de pre-entreno de ectomorfo
+Route::get('/options_meal_ectomorph/pre-em_options_ectomorph', function () {
+    return view('options_meal_ectomorph.pre-em_options_ectomorph');
+})->name('pre-em.options.ectomorph');
+
+// Ruta para opciones de post-entreno de ectomorfo
+Route::get('/options_meal_ectomorph/post-em_options_ectomorph', function () {
+    return view('options_meal_ectomorph.post-em_options_ectomorph');
+})->name('post-em.options.ectomorph');
+
+// Ruta para opciones de cena de ectomorfo
+Route::get('/options_meal_ectomorph/msnack_options_ectomorph', function () {
+    return view('options_meal_ectomorph.msnack_options_ectomorph');
+})->name('msnack.options.ectomorph');
+
 //Ruta para opciones de ejercicios de ectomorfo
 Route::get('/options_exercises_ectomorph/more_options', function () {
     return view('options_exercises_ectomorph.more_options');

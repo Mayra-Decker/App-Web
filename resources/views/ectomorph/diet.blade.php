@@ -47,6 +47,7 @@
                 <ul>
                     <li>1 manzana o 1 naranja.</li>
                 </ul>
+                <a href="{{ route('brunch.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
@@ -71,6 +72,7 @@
                     <li>Mezcla de lechuga, tomate, pepino, y aceitunas.</li>
                     <li>Aliñado con aceite de oliva y vinagre balsámico.</li>
                 </ul>
+                <a href="{{ route('lunch.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
@@ -87,6 +89,7 @@
                     <li>2 cucharadas de granola.</li>
                     <li>1 cucharada de miel.</li>
                 </ul>
+                <a href="{{ route('pre-em.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
@@ -107,6 +110,7 @@
                 <ul>
                     <li>Espinacas y calabacín.</li>
                 </ul>
+                <a href="{{ route('post-em.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
@@ -119,6 +123,7 @@
                     <li>1/2 taza de piña o mango en trozos.</li>
                     <li>Puñado de nueces y almendras.</li>
                 </ul>
+                <a href="{{ route('msnack.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
