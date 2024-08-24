@@ -42,6 +42,31 @@ Route::get('/endomorph/diet', function () {
 Route::get('/exercises/chest', [ExerciseController::class, 'chest'])->name('exercises.chest');
 
 // Ruta para opciones de desayunos de ectomorfo
-Route::get('/breakfast/options/ectomorph', function () {
-    return view('options_foods_ectomorph.breakfast_options_ectomorph');
+Route::get('/options_meal_ectomorph/breakfast_options_ectomorph', function () {
+    return view('options_meal_ectomorph.breakfast_options_ectomorph');
 })->name('breakfast.options.ectomorph');
+
+//Ruta para opciones de ejercicios de ectomorfo
+Route::get('/options_exercises_ectomorph/more_options', function () {
+    return view('options_exercises_ectomorph.more_options');
+})->name('options_exercises_ectomorph.more_options');
+
+//ruta para ejercisos espalda
+Route::get('/options_exercises_ectomorph/more_options_back', function () {
+    return view('options_exercises_ectomorph.more_options_back');
+})->name('exercises.more_options_back');
+
+//ruta para ejercicios piernas
+Route::get('/options_exercises_ectomorph/more_options_legs', function () {
+    return view('options_exercises_ectomorph.more_options_legs');
+})->name('exercises.more_options_legs');
+
+//ruta para ejercisios brazos
+Route::get('/options_exercises_ectomorph/more_options_arms', function () {
+    return view('options_exercises_ectomorph.more_options_arms');
+})->name('exercises.more_options_arms');
+
+//ruta de ejercicios abdomen
+Route::get('/options_exercises_ectomorph/more_options_abs', function () {
+    return view('options_exercises_ectomorph.more_options_abs');
+})->name('exercises.more_options_abs');
