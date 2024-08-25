@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="intro-section">
-        <h1>Dieta Completa para Mesomorfo</h1>
+        <h1>Dieta completa para mesomorfo</h1>
         <p>Los mesomorfos tienden a ganar músculo y perder grasa con relativa facilidad, por lo que su dieta debe ser balanceada y adaptada a sus objetivos. Aquí te proporciono una dieta completa diseñada para un mesomorfo que busca mantener o ganar masa muscular.</p>
     </div>
 
@@ -25,6 +25,7 @@
                     <li>1 plátano.</li>
                     <li>1 cucharada de mantequilla de almendra.</li>
                 </ul>
+                <a href="{{ route('breakfast.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
@@ -41,6 +42,7 @@
                 <ul>
                     <li>1 manzana o 1 pera.</li>
                 </ul>
+                <a href="{{ route('brunch.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
@@ -61,6 +63,7 @@
                     <li>Mezcla de lechuga, tomate, pepino, y zanahoria rallada.</li>
                     <li>Aliñado con aceite de oliva y limón.</li>
                 </ul>
+                <a href="{{ route('lunch.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
@@ -77,6 +80,7 @@
                     <li>1 taza de yogur griego.</li>
                     <li>2 cucharadas de granola.</li>
                 </ul>
+                <a href="{{ route('pre-em.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
@@ -96,6 +100,7 @@
                 <ul>
                     <li>Brócoli y espárragos.</li>
                 </ul>
+                <a href="{{ route('post-em.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
@@ -107,6 +112,7 @@
                     <li>1/2 taza de requesón.</li>
                     <li>1 cucharada de miel.</li>
                 </ul>
+                <a href="{{ route('msnack.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
 
