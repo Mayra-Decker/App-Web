@@ -130,11 +130,6 @@
         </ul>
 
         <div class="col-md-6">
-    <div class="intro-section">
-        <h1>Más Opciones de Comida de Media Noche - Ectomorfo</h1>
-        <p>Continúa disfrutando de estas opciones saludables y balanceadas para mantener tu energía durante la noche.</p>
-    </div>
-    
     <div class="meal-section">
         <h2>Opción 16: Yogur griego con semillas de chía</h2>
         <ul>

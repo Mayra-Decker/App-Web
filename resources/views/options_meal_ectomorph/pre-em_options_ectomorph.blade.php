@@ -271,5 +271,3 @@
         </ul>
     </div>
 @endsection
-
-@endsection

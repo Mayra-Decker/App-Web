@@ -131,14 +131,15 @@
             <li>Licúa todos los ingredientes hasta obtener una mezcla suave.</li>
         </ul>
 
-        <h2>Opción 14: Panqueques de avena y plátano</h2>
-        <ul>
-            <li>1 taza de avena</li>
-            <li>1 plátano maduro</li>
-            <li>2 huevos</li>
-            <li>1/2 cucharadita de polvo de hornear</li>
-            <li>Mezcla la avena, el plátano y los huevos, luego cocina en una sartén antiadherente.</li>
-        </ul>
+        <h2>Opción 14: Panqueques de mijo y tamarindo</h2>
+<ul>
+    <li>1 taza de mijo</li>
+    <li>1/4 taza de pulpa de tamarindo</li>
+    <li>2 claras de huevo</li>
+    <li>1/2 cucharadita de cúrcuma en polvo</li>
+    <li>1 cucharada de miel (opcional)</li>
+    <li>Remoja el mijo durante 2 horas, luego hiérvelo hasta que esté suave. Mezcla el mijo cocido con la pulpa de tamarindo y las claras de huevo. Añade la cúrcuma y la miel si lo deseas. Cocina en una sartén antiadherente a fuego medio hasta que estén dorados por ambos lados.</li>
+</ul>
 
         <h2>Opción 15: Burrito de huevo con queso y aguacate</h2>
         <ul>
@@ -180,23 +181,23 @@
             <li>Prepara la tortilla en una sartén antiadherente.</li>
         </ul>
 
-        <h2>Opción 19: Panqueques de plátano y avena</h2>
-        <ul>
-            <li>1 plátano maduro</li>
-            <li>1/2 taza de avena</li>
-            <li>2 huevos</li>
-            <li>1/4 cucharadita de canela</li>
-            <li>Mezcla los ingredientes y cocina en una sartén antiadherente.</li>
-        </ul>
+        <h2>Opción 19: Panqueques de quinua y yaca</h2>
+<ul>
+    <li>1 taza de quinua cocida</li>
+    <li>1/2 taza de pulpa de yaca (jackfruit)</li>
+    <li>2 claras de huevo</li>
+    <li>1/4 cucharadita de comino en polvo</li>
+    <li>Mezcla la quinua cocida con la pulpa de yaca y las claras de huevo. Añade el comino y cocina en una sartén antiadherente a fuego medio hasta que estén dorados por ambos lados.</li>
+</ul>
 
-        <h2>Opción 20: Yogur griego con frutos secos y miel</h2>
-        <ul>
-            <li>1 taza de yogur griego</li>
-            <li>1/4 taza de almendras</li>
-            <li>1/4 taza de nueces</li>
-            <li>1 cucharada de miel</li>
-            <li>Mezcla el yogur con los frutos secos y añade miel.</li>
-        </ul>
+<h2>Opción 20: Pudín de kefir con semillas de chía y dátiles</h2>
+<ul>
+    <li>1 taza de kefir</li>
+    <li>2 cucharadas de semillas de chía</li>
+    <li>1/4 taza de dátiles picados</li>
+    <li>1 cucharada de pasta de vainilla</li>
+    <li>Mezcla el kefir con las semillas de chía y deja reposar durante al menos 4 horas o hasta que obtenga una consistencia de pudín. Añade los dátiles picados y la pasta de vainilla antes de servir.</li>
+</ul>
 
         <h2>Opción 21: Burrito de huevo con espinacas y queso feta</h2>
         <ul>
@@ -224,14 +225,15 @@
             <li>Esparce la mantequilla de almendras sobre el pan y coloca el plátano encima.</li>
         </ul>
 
-        <h2>Opción 24: Omelette de champiñones y espinacas</h2>
-        <ul>
-            <li>3 huevos</li>
-            <li>1 taza de champiñones en rodajas</li>
-            <li>1 taza de espinacas frescas</li>
-            <li>Sal y pimienta al gusto</li>
-            <li>Prepara el omelette en una sartén antiadherente.</li>
-        </ul>
+        <h2>Opción 24: Omelette de moringa y setas shiitake</h2>
+<ul>
+    <li>3 huevos</li>
+    <li>1 taza de setas shiitake en rodajas</li>
+    <li>1/2 taza de hojas frescas de moringa</li>
+    <li>1 cucharadita de semillas de sésamo tostado</li>
+    <li>Sal y pimienta al gusto</li>
+    <li>Prepara el omelette en una sartén antiadherente. Cocina las setas shiitake hasta que estén doradas antes de añadir las hojas de moringa y luego los huevos batidos. Cocina a fuego medio hasta que el omelette esté bien cocido. Espolvorea con las semillas de sésamo antes de servir.</li>
+</ul>
 
         <h2>Opción 25: Avena con manzana y canela</h2>
         <ul>
