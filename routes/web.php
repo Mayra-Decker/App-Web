@@ -5,8 +5,13 @@ use App\Http\Controllers\MuscleController;
 use App\Http\Controllers\ExerciseController;
 
 Route::get('/', function () {
+    return view('home1');
+})->name('home1');
+
+
+Route::get('/home', function () {
     return view('home');
-})->name('home');
+});
 
 Route::get('/muscles/{id}', [MuscleController::class, 'show'])->name('muscles.show');
 Route::get('/exercises/{id}', [ExerciseController::class, 'show'])->name('exercises.show');
