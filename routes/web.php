@@ -5,8 +5,13 @@ use App\Http\Controllers\MuscleController;
 use App\Http\Controllers\ExerciseController;
 
 Route::get('/', function () {
+    return view('home1');
+})->name('home1');
+
+
+Route::get('/home', function () {
     return view('home');
-})->name('home');
+});
 
 Route::get('/muscles/{id}', [MuscleController::class, 'show'])->name('muscles.show');
 Route::get('/exercises/{id}', [ExerciseController::class, 'show'])->name('exercises.show');
@@ -70,7 +75,6 @@ Route::get('/options_meal_ectomorph/post-em_options_ectomorph', function () {
 Route::get('/options_meal_ectomorph/msnack_options_ectomorph', function () {
     return view('options_meal_ectomorph.msnack_options_ectomorph');
 })->name('msnack.options.ectomorph');
-
 
 // Ruta para opciones de desayunos de endomorfo
 Route::get('/options_meal_endomorph/breakfast_options_endomorph', function () {

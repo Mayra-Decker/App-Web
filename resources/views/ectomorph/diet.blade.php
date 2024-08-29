@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="intro-section">
-        <h1>Dieta Completa para Ectomorfo</h1>
+        <h1>Dieta completa para ectomorfo</h1>
         <p>Para un ectomorfo, la dieta debe enfocarse en aumentar la ingesta calórica y de proteínas para apoyar la ganancia muscular y de peso. A continuación, te proporciono una dieta completa que incluye todas las comidas del día, diseñada para un ectomorfo que busca ganar masa muscular.</p>
     </div>
     
@@ -19,6 +19,8 @@
                     <li>1 cucharada de miel.</li>
                     <li>1 plátano en rodajas.</li>
                 </ul>
+                <img src="{{ asset('images/breakfast_ectomorph/1.jpg') }}" style="width: 226px; height: auto;">
+
                 <h3>Batido de proteínas:</h3>
                 <ul>
                     <li>1 scoop de proteína en polvo.</li>
@@ -28,6 +30,7 @@
                     <li>1/2 taza de frutos rojos (opcional).</li>
                     <li>Mezcla todo en una licuadora hasta que quede suave.</li>
                 </ul>
+                <img src="{{ asset('images/breakfast_ectomorph/2.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('breakfast.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
@@ -47,6 +50,7 @@
                 <ul>
                     <li>1 manzana o 1 naranja.</li>
                 </ul>
+                <img src="{{ asset('images/brunch_ectomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('brunch.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
@@ -72,6 +76,7 @@
                     <li>Mezcla de lechuga, tomate, pepino, y aceitunas.</li>
                     <li>Aliñado con aceite de oliva y vinagre balsámico.</li>
                 </ul>
+                <img src="{{ asset('images/lunch_ectomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('lunch.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
@@ -89,6 +94,7 @@
                     <li>2 cucharadas de granola.</li>
                     <li>1 cucharada de miel.</li>
                 </ul>
+                <img src="{{ asset('images/pre-em_ectomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('pre-em.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
@@ -110,12 +116,13 @@
                 <ul>
                     <li>Espinacas y calabacín.</li>
                 </ul>
-                <a href="{{ route('post-em.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
+                <img src="{{ asset('images/post-em_ectomorph/1.jpg') }}" style="width: 226px; height: auto;">
+                <a href="{{ route('post-em.options.ectomorph') }}" class="btn btn-primary">Más opciones</a>
             </div>
         </div>
 
         <div class="meal-section">
-            <h2 class="meal-title">Merienda Nocturna</h2>
+            <h2 class="meal-title">Merienda nocturna</h2>
             <div class="meal-content">
                 <h3>Requesón con frutas:</h3>
                 <ul>
@@ -123,6 +130,7 @@
                     <li>1/2 taza de piña o mango en trozos.</li>
                     <li>Puñado de nueces y almendras.</li>
                 </ul>
+                <img src="{{ asset('images/msnack_ectomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('msnack.options.ectomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
