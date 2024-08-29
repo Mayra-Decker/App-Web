@@ -162,6 +162,9 @@ Route::get('/options_exercises_ectomorph/more_options_abs', function () {
 })->name('exercises.more_options_abs');
 
 
+
+
+
 // RUTAS DE EJERCICIOS PARA MESOMORFO
 // Ruta para Pecho (Chest)
 Route::get('/exercises/mesomorph/chest', function () {
@@ -211,11 +214,10 @@ Route::get('/options_exercises_endomorph/more_options_abs', function () {
 })->name('options_exercises_endomorph.more_options_abs');
 
 
-
 // Rutas para ejercicios de pecho en Mesomorfo peso libre
 Route::get('/exercises/mesomorph/chest/flat-barbell-bench-press', function () {
     return view('exercises.mesomorph.chest.ejercicios_con_peso_libre.flat_barbell_bench_press');
-})->name('exercises.mesomorph.chest.flat_barbell_bench_press');
+}) ->name('exercises.mesomorph.chest.flat_barbell_bench_press');
 
 Route::get('/exercises/mesomorph/chest/flat-dumbbell-bench-press', function () {
     return view('exercises.mesomorph.chest.ejercicios_con_peso_libre.flat_dumbbell_bench_press');
@@ -252,7 +254,7 @@ Route::get('/exercises/mesomorph/chest/decline-dumbbell-flyes', function () {
 Route::get('/exercises/mesomorph/chest/alternating-dumbbell-chest-press', function () {
     return view('exercises.mesomorph.chest.ejercicios_con_peso_libre.alternating_dumbbell_chest_press');
 })->name('exercises.mesomorph.chest.alternating_dumbbell_chest_press');
- 
+
  
 // Rutas para ejercicios con máquinas y equipos
 Route::get('/exercises/mesomorph/chest/ejercicios_con_maquinas_y_equipos/machine-chest-press', function () {
