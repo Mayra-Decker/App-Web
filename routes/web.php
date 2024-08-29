@@ -71,7 +71,6 @@ Route::get('/options_meal_ectomorph/msnack_options_ectomorph', function () {
     return view('options_meal_ectomorph.msnack_options_ectomorph');
 })->name('msnack.options.ectomorph');
 
-
 // Ruta para opciones de desayunos de endomorfo
 Route::get('/options_meal_endomorph/breakfast_options_endomorph', function () {
     return view('options_meal_endomorph.breakfast_options_endomorph');
