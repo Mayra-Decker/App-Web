@@ -27,6 +27,7 @@
                     <li>1 taza de agua o leche de almendras.</li>
                     <li>Mezcla todo en una licuadora hasta que quede suave.</li>
                 </ul>
+                <a href="{{ route('breakfast.options.endomorph') }}" class="btn btn-primary">Más opciones</a>
             </div>
         </div>
 
@@ -41,6 +42,7 @@
                 <ul>
                     <li>1 pera o 1 toronja.</li>
                 </ul>
+                <a href="{{ route('brunch.options.endomorph') }}" class="btn btn-primary">Más opciones</a>
             </div>
         </div>
 
@@ -61,6 +63,7 @@
                 <ul>
                     <li>1/2 taza cocida.</li>
                 </ul>
+                <a href="{{ route('lunch.options.endomorph') }}" class="btn btn-primary">Más opciones</a>
             </div>
         </div>
 
@@ -76,6 +79,7 @@
                     <li>1 cucharada de semillas de chía.</li>
                     <li>Mezcladas con el yogur.</li>
                 </ul>
+                <a href="{{ route('pre-em.options.endomorph') }}" class="btn btn-primary">Más opciones</a>
             </div>
         </div>
 
@@ -96,6 +100,7 @@
                 <ul>
                     <li>1 batata pequeña asada.</li>
                 </ul>
+                <a href="{{ route('post-em.options.endomorph') }}" class="btn btn-primary">Más opciones</a>
             </div>
         </div>
 
@@ -107,6 +112,7 @@
                     <li>1/2 taza de requesón bajo en grasa.</li>
                     <li>1/2 taza de bayas frescas.</li>
                 </ul>
+                <a href="{{ route('msnack.options.endomorph') }}" class="btn btn-primary">Más opciones</a>
             </div>
         </div>
 

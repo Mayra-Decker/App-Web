@@ -18,6 +18,7 @@
                     <li>1 taza de espinacas salteadas.</li>
                     <li>1 rebanada de pan integral.</li>
                 </ul>
+                <img src="{{ asset('images/breakfast_mesomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <h3>Batido de proteínas:</h3>
                 <ul>
                     <li>1 scoop de proteína en polvo.</li>
@@ -25,6 +26,7 @@
                     <li>1 plátano.</li>
                     <li>1 cucharada de mantequilla de almendra.</li>
                 </ul>
+                <img src="{{ asset('images/breakfast_mesomorph/2.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('breakfast.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
@@ -42,6 +44,7 @@
                 <ul>
                     <li>1 manzana o 1 pera.</li>
                 </ul>
+                <img src="{{ asset('images/brunch_mesomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('brunch.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
@@ -63,6 +66,7 @@
                     <li>Mezcla de lechuga, tomate, pepino, y zanahoria rallada.</li>
                     <li>Aliñado con aceite de oliva y limón.</li>
                 </ul>
+                <img src="{{ asset('images/lunch_mesomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('lunch.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
@@ -75,11 +79,13 @@
                     <li>1/2 taza de avena cocida.</li>
                     <li>1/2 taza de frutas como manzana o arándanos.</li>
                 </ul>
+                <img src="{{ asset('images/pre-em_mesomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <h3>Yogur griego con granola:</h3>
                 <ul>
                     <li>1 taza de yogur griego.</li>
                     <li>2 cucharadas de granola.</li>
                 </ul>
+                <img src="{{ asset('images/pre-em_mesomorph/2.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('pre-em.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
@@ -100,6 +106,7 @@
                 <ul>
                     <li>Brócoli y espárragos.</li>
                 </ul>
+                <img src="{{ asset('images/post-em_mesomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('post-em.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>
@@ -112,6 +119,7 @@
                     <li>1/2 taza de requesón.</li>
                     <li>1 cucharada de miel.</li>
                 </ul>
+                <img src="{{ asset('images/msnack_mesomorph/1.jpg') }}" style="width: 226px; height: auto;">
                 <a href="{{ route('msnack.options.mesomorph') }}" class="btn btn-primary">Más Opciones</a>
             </div>
         </div>

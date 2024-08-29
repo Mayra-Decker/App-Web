@@ -1,230 +1,299 @@
 @extends('layouts.layout')
 
-@section('title', 'Opciones de media mañana para mesomorfo')
+@section('title', 'Opciones de almuerzo para mesomorfo')
 
 @section('content')
     <div class="intro-section">
-        <h1>Opciones de media mañana - Mesomorfo</h1>
-        <p>Explora una variedad de opciones de snacks para media mañana, diseñadas para mantener un equilibrio adecuado de energía y nutrientes.</p>
+        <h1>Opciones de almuerzo - Mesomorfo</h1>
+        <p>Descubre una variedad de almuerzos diseñados para mantener un equilibrio perfecto de proteínas, carbohidratos y grasas saludables.</p>
     </div>
 
     <div class="row">
         <div class="col-md-6">
-    <div class="meal-section">
-        <h2>Opción 1: Yogur griego con almendras y miel</h2>
-        <ul>
-            <li>1 taza de yogur griego</li>
-            <li>1/4 taza de almendras picadas</li>
-            <li>1 cucharada de miel</li>
-        </ul>
+            <div class="meal-section">
+                <h2>Opción 1: Ensalada de pollo con aguacate y quinoa</h2>
+                <ul>
+                    <li>150 g de pechuga de pollo a la parrilla</li>
+                    <li>1/2 taza de quinoa cocida</li>
+                    <li>1/2 aguacate en cubos</li>
+                    <li>Ensalada mixta (espinacas, lechuga, tomate, pepino)</li>
+                    <li>Aderezo de aceite de oliva y limón</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/2.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 2: Smoothie de proteínas con fresas y avena</h2>
-        <ul>
-            <li>1 scoop de proteína en polvo</li>
-            <li>1/2 taza de fresas</li>
-            <li>1/4 taza de avena</li>
-            <li>1 taza de leche de almendras</li>
-        </ul>
+                <h2>Opción 2: Tacos de pescado con salsa de mango</h2>
+                <ul>
+                    <li>2 tortillas de maíz</li>
+                    <li>150 g de pescado blanco a la parrilla</li>
+                    <li>Salsa de mango (mango, cebolla, cilantro, chile)</li>
+                    <li>Rodajas de aguacate</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/3.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 3: Tostadas integrales con aguacate y huevo duro</h2>
-        <ul>
-            <li>2 rebanadas de pan integral</li>
-            <li>1/2 aguacate</li>
-            <li>1 huevo duro en rodajas</li>
-        </ul>
+                <h2>Opción 3: Ensalada de garbanzos con espinacas y feta</h2>
+                <ul>
+                    <li>1 taza de garbanzos cocidos</li>
+                    <li>1 taza de espinacas frescas</li>
+                    <li>50 g de queso feta desmenuzado</li>
+                    <li>Tomates cherry y pepino en cubos</li>
+                    <li>Aderezo de aceite de oliva y vinagre balsámico</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/4.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 4: Fruta fresca con nueces</h2>
-        <ul>
-            <li>1 manzana o plátano</li>
-            <li>1/4 taza de nueces</li>
-        </ul>
+                <h2>Opción 4: Sopa de lentejas y verduras</h2>
+                <ul>
+                    <li>1 taza de lentejas cocidas</li>
+                    <li>1 zanahoria en cubos</li>
+                    <li>1 papa en cubos</li>
+                    <li>1/2 taza de apio picado</li>
+                    <li>Caldo de verduras y especias al gusto</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/5.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 5: Barrita de proteínas</h2>
-        <ul>
-            <li>1 barrita de proteínas baja en azúcar</li>
-        </ul>
+                <h2>Opción 5: Ensalada de atún con frijoles y maíz</h2>
+                <ul>
+                    <li>1 lata de atún en agua</li>
+                    <li>1/2 taza de frijoles negros cocidos</li>
+                    <li>1/2 taza de maíz</li>
+                    <li>Ensalada mixta (lechuga, tomate, pepino)</li>
+                    <li>Aderezo de limón y aceite de oliva</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/6.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 6: Batido de plátano y mantequilla de maní</h2>
-        <ul>
-            <li>1 plátano</li>
-            <li>1 cucharada de mantequilla de maní</li>
-            <li>1 taza de leche de almendras</li>
-        </ul>
+                <h2>Opción 6: Carne de vaca curry con arroz integral</h2>
+                <ul>
+                    <li>150 g de pcarne de vaca en trozos</li>
+                    <li>1 taza de arroz integral cocido</li>
+                    <li>Salsa de curry (leche de coco, pasta de curry, especias)</li>
+                    <li>Verduras al vapor (brócoli, zanahoria)</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/7.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 7: Hummus con palitos de zanahoria y pepino</h2>
-        <ul>
-            <li>1/2 taza de hummus</li>
-            <li>1 zanahoria cortada en palitos</li>
-            <li>1/2 pepino cortado en rodajas</li>
-        </ul>
+                <h2>Opción 7: Rollos de lechuga con carne de res y verduras</h2>
+                <ul>
+                    <li>150 g de carne de res molida</li>
+                    <li>Hojas de lechuga para envolver</li>
+                    <li>Verduras en tiras (pimiento, cebolla, zanahoria)</li>
+                    <li>Salsa de soya y jengibre</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/8.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 8: Queso cottage con piña</h2>
-        <ul>
-            <li>1/2 taza de queso cottage</li>
-            <li>1/2 taza de piña en trozos</li>
-        </ul>
+                <h2>Opción 8: Ensalada de quinoa con aguacate y edamame</h2>
+                <ul>
+                    <li>1 taza de quinoa cocida</li>
+                    <li>1/2 aguacate en cubos</li>
+                    <li>1/2 taza de edamame cocido</li>
+                    <li>Tomates cherry y cebolla morada</li>
+                    <li>Aderezo de aceite de sésamo y limón</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/9.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 9: Ensalada de frutas con yogur</h2>
-        <ul>
-            <li>1/2 taza de fresas</li>
-            <li>1/2 taza de melón</li>
-            <li>1/4 taza de arándanos</li>
-            <li>1/4 taza de yogur griego</li>
-        </ul>
+                <h2>Opción 9: Pechuga de pavo al horno con batata</h2>
+                <ul>
+                    <li>150 g de pechuga de pavo al horno</li>
+                    <li>1 batata asada</li>
+                    <li>Ensalada verde</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/10.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 10: Tostadas integrales con queso cottage y tomate</h2>
-        <ul>
-            <li>2 rebanadas de pan integral</li>
-            <li>3 cucharadas de queso cottage</li>
-            <li>1 tomate en rodajas</li>
-        </ul>
+                <h2>Opción 10: Ensalada de pollo con manzana y nueces</h2>
+                <ul>
+                    <li>150 g de pechuga de pollo a la parrilla</li>
+                    <li>1 manzana en cubos</li>
+                    <li>1/4 taza de nueces</li>
+                    <li>Ensalada de hojas verdes</li>
+                    <li>Aderezo de yogur y mostaza</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/11.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 11: Batido de proteínas con cacao y almendras</h2>
-        <ul>
-            <li>1 scoop de proteína en polvo</li>
-            <li>1 cucharada de cacao en polvo</li>
-            <li>1/4 taza de almendras</li>
-            <li>1 taza de leche de almendras</li>
-        </ul>
+                <h2>Opción 11: Tacos de carne de cerdo con salsa de piña</h2>
+                <ul>
+                    <li>2 tortillas de maíz</li>
+                    <li>150 g de carne de cerdo desmenuzada</li>
+                    <li>Salsa de piña (piña, cebolla, cilantro)</li>
+                    <li>Rodajas de jalapeño</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/12.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 12: Queso bajo en grasa con galletas integrales</h2>
-        <ul>
-            <li>50 g de queso bajo en grasa</li>
-            <li>5 galletas integrales</li>
-        </ul>
+                <h2>Opción 12: Ensalada de pollo con espárragos y champiñones</h2>
+                <ul>
+                    <li>150 g de pechuga de pollo a la parrilla</li>
+                    <li>1 taza de espárragos cocidos</li>
+                    <li>1/2 taza de champiñones salteados</li>
+                    <li>Ensalada de hojas verdes</li>
+                    <li>Aderezo de aceite de oliva y vinagre de manzana</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/13.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 13: Batido verde con espinacas y plátano</h2>
-        <ul>
-            <li>1 taza de espinacas frescas</li>
-            <li>1 plátano</li>
-            <li>1/2 taza de pepino en rodajas</li>
-            <li>1 taza de agua de coco</li>
-        </ul>
+                <h2>Opción 13: Quiche de espinacas y queso feta</h2>
+                <ul>
+                    <li>1 porción de quiche casero (espinacas, queso feta, huevo)</li>
+                    <li>Ensalada verde</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/14.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 14: Frutos secos con yogur natural</h2>
-        <ul>
-            <li>1/4 taza de frutos secos mixtos</li>
-            <li>1 taza de yogur natural</li>
-        </ul>
+                <h2>Opción 14: Pollo al limón con brócoli al vapor</h2>
+                <ul>
+                    <li>150 g de pechuga de pollo con salsa de limón</li>
+                    <li>1 taza de brócoli al vapor</li>
+                    <li>1/2 taza de arroz integral</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/15.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 15: Batido de proteínas con mango y espinacas</h2>
-        <ul>
-            <li>1/2 taza de mango</li>
-            <li>1 taza de espinacas frescas</li>
-            <li>1 scoop de proteína en polvo</li>
-            <li>1 taza de leche de almendras</li>
-        </ul>
+                <h2>Opción 15: Ensalada de garbanzos con pimientos asados</h2>
+                <ul>
+                    <li>1 taza de garbanzos cocidos</li>
+                    <li>1/2 taza de pimientos asados en tiras</li>
+                    <li>1/2 cebolla roja en rodajas</li>
+                    <li>Ensalada verde</li>
+                    <li>Aderezo de aceite de oliva y vinagre</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/16.jpg') }}" style="width: 226px; height: auto;">
 
-<div class="col-md-6">
-    <div class="meal-section">
-        <h2>Opción 16: Galletas de avena y pasas</h2>
-        <ul>
-            <li>3 galletas de avena y pasas</li>
-            <li>1 vaso de leche de almendras</li>
-        </ul>
+        </div>
+        <div class="col-md-6">
+            <div class="meal-section">
+                <h2>Opción 16: Ensalada de pollo con pimiento y aguacate</h2>
+                <ul>
+                    <li>150 g de pechuga de pollo a la parrilla</li>
+                    <li>1/2 pimiento rojo en tiras</li>
+                    <li>1/2 aguacate en cubos</li>
+                    <li>Ensalada mixta</li>
+                    <li>Aderezo de cilantro y limón</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/17.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 17: Ensalada de frutas con almendras</h2>
-        <ul>
-            <li>1/2 taza de fresas</li>
-            <li>1/2 taza de melón</li>
-            <li>1/4 taza de arándanos</li>
-            <li>1/4 taza de almendras picadas</li>
-        </ul>
+                <h2>Opción 17: Pita de falafel con salsa de yogur</h2>
+                <ul>
+                    <li>1 pita integral</li>
+                    <li>4-5 bolitas de falafel</li>
+                    <li>Salsa de yogur (yogur griego, ajo, limón)</li>
+                    <li>Verduras frescas (tomate, pepino, cebolla)</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/18.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 18: Tostadas integrales con aguacate y salmón ahumado</h2>
-        <ul>
-            <li>2 rebanadas de pan integral</li>
-            <li>1/2 aguacate</li>
-            <li>50 g de salmón ahumado</li>
-        </ul>
+                <h2>Opción 18: Ensalada de atún con aguacate y huevo</h2>
+                <ul>
+                    <li>1 lata de atún en agua</li>
+                    <li>1/2 aguacate en cubos</li>
+                    <li>1 huevo duro en rodajas</li>
+                    <li>Ensalada verde</li>
+                    <li>Aderezo de mostaza y miel</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/19.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 19: Batido de plátano, cacao y avena</h2>
-        <ul>
-            <li>1 plátano</li>
-            <li>1 cucharada de cacao en polvo</li>
-            <li>1/4 taza de avena</li>
-            <li>1 taza de leche de almendras</li>
-        </ul>
+                <h2>Opción 19: Pollo al horno con papas y zanahorias</h2>
+                <ul>
+                    <li>150 g de pechuga de pollo al horno</li>
+                    <li>1 papa asada en cubos</li>
+                    <li>1 zanahoria asada en rodajas</li>
+                    <li>Ensalada verde</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/20.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 20: Yogur griego con arándanos y nueces</h2>
-        <ul>
-            <li>1 taza de yogur griego</li>
-            <li>1/4 taza de arándanos frescos</li>
-            <li>1/4 taza de nueces picadas</li>
-        </ul>
+                <h2>Opción 20: Ensalada de quinoa con mango y camarones</h2>
+                <ul>
+                    <li>1 taza de quinoa cocida</li>
+                    <li>150 g de camarones cocidos</li>
+                    <li>1/2 mango en cubos</li>
+                    <li>Ensalada de hojas verdes</li>
+                    <li>Aderezo de cilantro y limón</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/21.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 21: Tostadas integrales con mantequilla de almendra y plátano</h2>
-        <ul>
-            <li>2 rebanadas de pan integral</li>
-            <li>1 cucharada de mantequilla de almendra</li>
-            <li>1 plátano en rodajas</li>
-        </ul>
+                <h2>Opción 21: Carne de res con pimientos y cebolla</h2>
+                <ul>
+                    <li>150 g de carne de res en tiras</li>
+                    <li>1 pimiento rojo en tiras</li>
+                    <li>1 cebolla en tiras</li>
+                    <li>1/2 taza de arroz integral</li>
+                    <li>Especias al gusto</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/22.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 22: Smoothie de espinacas, pepino y manzana</h2>
-        <ul>
-            <li>1 taza de espinacas frescas</li>
-            <li>1/2 pepino en rodajas</li>
-            <li>1/2 manzana en rodajas</li>
-            <li>1 taza de agua de coco</li>
-        </ul>
+                <h2>Opción 22: Ensalada de espinacas con salmón y aguacate</h2>
+                <ul>
+                    <li>150 g de salmón a la parrilla</li>
+                    <li>1 taza de espinacas frescas</li>
+                    <li>1/2 aguacate en cubos</li>
+                    <li>Ensalada mixta</li>
+                    <li>Aderezo de aceite de oliva y vinagre balsámico</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/23.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 23: Palitos de zanahoria con guacamole</h2>
-        <ul>
-            <li>1 zanahoria cortada en palitos</li>
-            <li>1/4 taza de guacamole</li>
-        </ul>
+                <h2>Opción 23: Pita con hummus y verduras asadas</h2>
+                <ul>
+                    <li>1 pita integral</li>
+                    <li>1/2 taza de hummus</li>
+                    <li>Verduras asadas (berenjena, pimiento, calabacín)</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/24.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 24: Queso cottage con fresas y almendras</h2>
-        <ul>
-            <li>1/2 taza de queso cottage</li>
-            <li>1/2 taza de fresas frescas</li>
-            <li>1/4 taza de almendras picadas</li>
-        </ul>
+                <h2>Opción 24: Ensalada de garbanzos con aguacate y tomate</h2>
+                <ul>
+                    <li>1 taza de garbanzos cocidos</li>
+                    <li>1/2 aguacate en cubos</li>
+                    <li>1 tomate en cubos</li>
+                    <li>Ensalada verde</li>
+                    <li>Aderezo de aceite de oliva y limón</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/25.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 25: Batido de proteínas con piña y coco</h2>
-        <ul>
-            <li>1/2 taza de piña</li>
-            <li>1 scoop de proteína en polvo</li>
-            <li>1 taza de leche de coco</li>
-        </ul>
+                <h2>Opción 25: Tacos de pollo con salsa de aguacate</h2>
+                <ul>
+                    <li>2 tortillas de maíz</li>
+                    <li>150 g de pollo desmenuzado</li>
+                    <li>Salsa de aguacate (aguacate, cilantro, limón)</li>
+                    <li>Verduras frescas (lechuga, cebolla)</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/26.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 26: Batido de proteínas con plátano y mantequilla de almendra</h2>
-        <ul>
-            <li>1 plátano</li>
-            <li>1 cucharada de mantequilla de almendra</li>
-            <li>1 scoop de proteína en polvo</li>
-            <li>1 taza de leche de almendras</li>
-        </ul>
+                <h2>Opción 26: Ensalada de atún con huevo y pimientos</h2>
+                <ul>
+                    <li>1 lata de atún en agua</li>
+                    <li>1 huevo duro en rodajas</li>
+                    <li>1/2 pimiento amarillo en tiras</li>
+                    <li>Ensalada de hojas verdes</li>
+                    <li>Aderezo de mostaza y miel</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/27.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 27: Ensalada de garbanzos con tomate y pepino</h2>
-        <ul>
-            <li>1/2 taza de garbanzos cocidos</li>
-            <li>1 tomate en cubos</li>
-            <li>1/2 pepino en rodajas</li>
-            <li>1 cucharada de aceite de oliva</li>
-        </ul>
+                <h2>Opción 27: Carne de cerdo con salsa de manzana y col rizada</h2>
+                <ul>
+                    <li>150 g de carne de cerdo a la parrilla</li>
+                    <li>1/2 taza de salsa de manzana</li>
+                    <li>1 taza de col rizada salteada</li>
+                    <li>1/2 taza de arroz integral</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/28.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 28: Tostadas de arroz con aguacate y queso feta</h2>
-        <ul>
-            <li>2 tostadas de arroz</li>
-            <li>1/2 aguacate</li>
-            <li>50 g de queso feta desmenuzado</li>
-        </ul>
+                <h2>Opción 28: Quiche de pavo con espinacas y champiñones</h2>
+                <ul>
+                    <li>1 porción de quiche casero (pavo, espinacas, champiñones)</li>
+                    <li>Ensalada verde</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/29.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 29: Smoothie de yogur con frutos rojos y avena</h2>
-        <ul>
-            <li>1 taza de yogur griego</li>
-            <li>1/2 taza de frutos rojos</li>
-            <li>1/4 taza de avena</li>
-            <li>1 cucharada de miel</li>
-        </ul>
+                <h2>Opción 29: Ensalada de edamame con aguacate y tomates</h2>
+                <ul>
+                    <li>1 taza de edamame cocido</li>
+                    <li>1/2 aguacate en cubos</li>
+                    <li>1/2 taza de tomates cherry</li>
+                    <li>Ensalada de hojas verdes</li>
+                    <li>Aderezo de aceite de sésamo y vinagre de arroz</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/30.jpg') }}" style="width: 226px; height: auto;">
 
-        <h2>Opción 30: Batido de proteínas con kiwi y espinacas</h2>
-        <ul>
-            <li>1 kiwi</li>
-            <li>1 taza de espinacas frescas</li>
-            <li>1 scoop de proteína en polvo</li>
-            <li>1 taza de leche de almendras</li>
-        </ul>
+                <h2>Opción 30: Sopa de pollo con fideos de arroz y verduras</h2>
+                <ul>
+                    <li>150 g de pechuga de pollo en tiras</li>
+                    <li>1 taza de fideos de arroz</li>
+                    <li>Verduras (zanahoria, cebolla, pimiento)</li>
+                    <li>Caldo de pollo</li>
+                    <li>Especias al gusto</li>
+                </ul>
+                <img src="{{ asset('images/lunch_mesomorph/31.jpg') }}" style="width: 226px; height: auto;">
+            </div>
+        </div>
     </div>
 @endsection
