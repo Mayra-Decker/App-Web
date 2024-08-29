@@ -3,27 +3,28 @@
 @section('title', 'Ejercicios para el Pecho - Mesomorfos')
 
 @section('content')
-    <div class="intro-section">
-        <h1>Ejercicios para el Pecho - Mesomorfos</h1>
-        <p>A continuación te presentamos una lista detallada de ejercicios para el pecho, ideales para personas con tipo de cuerpo mesomorfo.</p>
-    </div>
+<div class="intro-section">
+    <h1>Ejercicios para el Pecho - Mesomorfos</h1>
+    <p>A continuación te presentamos una lista detallada de ejercicios para el pecho, ideales para personas con tipo de cuerpo mesomorfo.</p>
+</div>
+
 
     <div class="exercise-section">
         <div class="exercise">
             <h2 class="exercise-header" onclick="toggleExerciseDetails('free-weight-exercises')">1. Ejercicios con Peso Libre</h2>
             <div id="free-weight-exercises" class="exercise-details">
                 <ul>
-    <li><a href="{{ route('exercises.mesomorph.chest.flat_barbell_bench_press') }}">Press de Pecho con Barra en Banco Plano (Flat Barbell Bench Press)</a></li>
-    <li><a href="{{ route('exercises.mesomorph.chest.flat_dumbbell_bench_press') }}">Press de Pecho con Mancuernas en Banco Plano (Flat Dumbbell Bench Press)</a></li>
-    <li><a href="{{ route('exercises.mesomorph.chest.incline_barbell_bench_press') }}">Press de Pecho Inclinado con Barra (Incline Barbell Bench Press)</a></li>
-    <li><a href="{{ route('exercises.mesomorph.chest.incline_dumbbell_bench_press') }}">Press de Pecho Inclinado con Mancuernas (Incline Dumbbell Bench Press)</a></li>
-    <li><a href="{{ route('exercises.mesomorph.chest.decline_barbell_bench_press') }}">Press de Pecho Declinado con Barra (Decline Barbell Bench Press)</a></li>
-    <li><a href="{{ route('exercises.mesomorph.chest.decline_dumbbell_bench_press') }}">Press de Pecho Declinado con Mancuernas (Decline Dumbbell Bench Press)</a></li>
-    <li><a href="{{ route('exercises.mesomorph.chest.flat_dumbbell_flyes') }}">Aperturas con Mancuernas en Banco Plano (Flat Dumbbell Flyes)</a></li>
-    <li><a href="{{ route('exercises.mesomorph.chest.incline_dumbbell_flyes') }}">Aperturas con Mancuernas en Banco Inclinado (Incline Dumbbell Flyes)</a></li>
-    <li><a href="{{ route('exercises.mesomorph.chest.decline_dumbbell_flyes') }}">Aperturas con Mancuernas en Banco Declinado (Decline Dumbbell Flyes)</a></li>
-    <li><a href="{{ route('exercises.mesomorph.chest.alternating_dumbbell_chest_press') }}">Press de Pecho con Mancuernas Alterno (Alternating Dumbbell Chest Press)</a></li>
-</ul>
+                    <li><a href="{{ route('exercises.mesomorph.chest.flat_barbell_bench_press') }}">Press de Pecho con Barra en Banco Plano (Flat Barbell Bench Press)</a></li>
+                    <li><a href="{{ route('exercises.mesomorph.chest.flat_dumbbell_bench_press') }}">Press de Pecho con Mancuernas en Banco Plano (Flat Dumbbell Bench Press)</a></li>
+                    <li><a href="{{ route('exercises.mesomorph.chest.incline_barbell_bench_press') }}">Press de Pecho Inclinado con Barra (Incline Barbell Bench Press)</a></li>
+                    <li><a href="{{ route('exercises.mesomorph.chest.incline_dumbbell_bench_press') }}">Press de Pecho Inclinado con Mancuernas (Incline Dumbbell Bench Press)</a></li>
+                    <li><a href="{{ route('exercises.mesomorph.chest.decline_barbell_bench_press') }}">Press de Pecho Declinado con Barra (Decline Barbell Bench Press)</a></li>
+                    <li><a href="{{ route('exercises.mesomorph.chest.decline_dumbbell_bench_press') }}">Press de Pecho Declinado con Mancuernas (Decline Dumbbell Bench Press)</a></li>
+                    <li><a href="{{ route('exercises.mesomorph.chest.flat_dumbbell_flyes') }}">Aperturas con Mancuernas en Banco Plano (Flat Dumbbell Flyes)</a></li>
+                    <li><a href="{{ route('exercises.mesomorph.chest.incline_dumbbell_flyes') }}">Aperturas con Mancuernas en Banco Inclinado (Incline Dumbbell Flyes)</a></li>
+                    <li><a href="{{ route('exercises.mesomorph.chest.decline_dumbbell_flyes') }}">Aperturas con Mancuernas en Banco Declinado (Decline Dumbbell Flyes)</a></li>
+                    <li><a href="{{ route('exercises.mesomorph.chest.alternating_dumbbell_chest_press') }}">Press de Pecho con Mancuernas Alterno (Alternating Dumbbell Chest Press)</a></li>
+                </ul>
 
             </div>
         </div>
