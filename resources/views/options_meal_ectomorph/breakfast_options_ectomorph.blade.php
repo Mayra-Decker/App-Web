@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="intro-section">
-        <h1>Más opciones para desayuno - Ectomorfo</h1>
+        <h1>Más Opciones para desayuno - Ectomorfo</h1>
         <p>Explora diferentes opciones de desayuno para variar tu dieta como ectomorfo.</p>
     </div>
     

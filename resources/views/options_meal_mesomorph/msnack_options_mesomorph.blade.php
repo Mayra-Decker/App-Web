@@ -9,8 +9,8 @@
     </div>
 
     <div class="row">
-        <div class="col-md-6">
-            <div class="meal-section">
+        <div class="card" style="width: 50%;">
+            <div class="card-body">
                 <h2>Opción 1: Bacalao al horno con espinacas y quinoa</h2>
                 <ul>
                     <li>150 g de bacalao al horno</li>
